@@ -135,8 +135,7 @@
     font-family: Work Sans;
     font-size: 45px;
     font-weight: 700;
-    margin-left: 20px;
-
+    padding-left: 20px;
 }
 
 .border_color {
@@ -182,6 +181,7 @@
     display: flex;
     justify-content: center;
     gap: 150px;
+    margin-left: 350px;
 }
 
 #pic_button {
@@ -213,16 +213,16 @@
 
 /*Section 3*/
 .section_3 {
-    width: 880px;
-    height: 250;
-    margin-left: 450px;
-    margin-right: auto;
+    width: 1500px;
     margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.sec_2_title {
+.sec_3_title {
     margin-left: 0px;
     margin-bottom: 25px;
+    padding-left: 0px;
 }
 
 /*section 4*/
@@ -231,6 +231,7 @@
     justify-content: center;
     gap: 150px;
     margin-top: 100px;
+    margin-bottom: 150px;
 }
 
 .four_icon {
@@ -247,7 +248,6 @@
     width: 46px;
     height: 46px;
     margin-bottom: 8px;
-
 }
 
 .icon_title {
@@ -265,4 +265,51 @@
     font-size: 20px;
     font-weight: 600;
     margin-top: 0px;
+}
+
+/*section 5*/
+.sec_5_title {
+    font-size: 45px;
+}
+
+.sec_5_dis {
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+/*section 6*/
+.section6 {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    margin-bottom: 150px;
+}
+
+.sec_6_img {
+    width: 170px;
+    height: 55px;
+    mix-blend-mode: luminosity;
+}
+
+/*Footer*/
+footer {
+    width: 1600px;
+    height: 100px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+
+.footer_dis {
+    color: #424242;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 40px;
+
 }
